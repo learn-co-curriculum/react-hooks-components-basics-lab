@@ -47,7 +47,7 @@ Ripple.prototype = {
   draw: function draw() {
     this.ctx.beginPath();
     this.ctx.strokeStyle = this.strokeColor;
-    this.ctx.arc(this.position.x, this.position.y - height, this.circleSize, 0,
+    this.ctx.arc(this.position.x, this.position.y - height*2, this.circleSize, 0,
       2 * Math.PI);
     this.ctx.stroke();
   },
