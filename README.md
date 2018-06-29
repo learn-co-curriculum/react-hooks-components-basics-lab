@@ -7,12 +7,12 @@
 
 ## Instructions
 
-In this lab, we will be rendering a few children components in the top-most
-component: `App`. All of your work will be done in `src/App.js`, the rest of the
+In this lab, we will be rendering a few children components in our top-most
+component: `App`. All of our work will be done in `src/App.js`, the rest of the
 components/source files shouldn't need any alterations. 
 
 Begin with `npm install`ing and examining what we have rendering in the browser
-so far with `npm start`. You should see nothing at all! 
+with `npm start`. You should see nothing at all! 
 
 Once we properly render the other three components: `CatComponent`,
 `FordQuoteComponent`, and `MouseComponent` in `App`, we will have the flag of
@@ -26,11 +26,12 @@ automatic, programmable, digital computer!
 
 
 ## Deliverables
-- `App` needs to render the three children components:
+- `App` needs to render three children components:
   1. `CatComponent`
   2. `FordQuoteComponent`
   3. `MouseComponent`
 - One component has not been properly imported in `src/App.js`. Identify and debug the issue
+- Once the tests are passing, make sure to check out the fun animation in the browser!
 
 
 [deutschland]: https://de.wikipedia.org/wiki/Deutschland
