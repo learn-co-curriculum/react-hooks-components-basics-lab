@@ -26,11 +26,11 @@ automatic, programmable, digital computer!
 
 
 ## Deliverables
+- One component has not been properly imported in `src/App.js`. Identify and debug the issue (_hint_: the stack strace when running `npm test` should point you in the right direction!)
 - `App` needs to render three children components:
   1. `CatComponent`
   2. `FordQuoteComponent`
   3. `MouseComponent`
-- One component has not been properly imported in `src/App.js`. Identify and debug the issue
 - Once the tests are passing, make sure to check out the fun animation in the browser!
 
 
