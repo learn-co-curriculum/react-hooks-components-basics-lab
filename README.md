@@ -12,7 +12,7 @@ component: `App`. All of our work will be done in `src/App.js`, the rest of the
 components/source files shouldn't need any alterations. 
 
 Begin with `npm install`ing and examining what we have rendering in the browser
-with `npm start`. You should see nothing at all! 
+with `npm start`. You should see an error we need to fix!
 
 Once we properly render the other three components: `CatComponent`,
 `FordQuoteComponent`, and `MouseComponent` in `App`, we will have the flag of
