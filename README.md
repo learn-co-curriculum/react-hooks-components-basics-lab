@@ -22,15 +22,18 @@ automatic, programmable, digital computer!
 ## Deliverables
 
 - Two components have not been properly imported in `src/App.js`. Identify and debug
-  the issue (_hint_: the stack trace when running `npm test` should point you in
-  the right direction!)
+  the issue. The stack trace when running `npm test` should point you in
+  the right direction! **HINT**: take a look at the component files. One of these components is exported by `default`, but the other is _not_. How does this change importing?
 
-- `App` needs to render three children components:
+- Once you have the first two components importing correctly, import and render
+  a third component, `MouseComponent`. In total, `App` needs to render three
+  children components:
 
-  1.  `CatComponent`
-  2.  `EinsteinQuoteComponent`
-  3.  `MouseComponent`
+  1. `CatComponent`
+  2. `EinsteinQuoteComponent`
+  3. `MouseComponent`
 
-- Once the tests are passing, make sure to check out the fun animation in the browser!
+- Once the tests are passing, make sure to check out the fun animation in the
+  browser by running `npm start`!
 
 [deutschland]: https://de.wikipedia.org/wiki/Deutschland
