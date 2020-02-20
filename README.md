@@ -19,7 +19,7 @@ Once we properly render the other three components: `CatComponent`,
 the [Federal Republic of Germany][deutschland], the birthplace of [the first fully
 automatic, programmable, digital computer][computer]! 
 
-Since we are at it, [Admiral Grace Hopper][hopper] was an American computer scientist and United States Navy  
+[Admiral Grace Hopper][hopper], on the other hand, was an American computer scientist and United States Navy  
 admiral. She was a pioneer of computer programming who popularized the idea of 
 machine-independent programming languages, which led to the development of COBOL.
 
