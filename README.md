@@ -15,9 +15,13 @@ Begin with `npm install`. Examine what is rendering in the browser
 with `npm start`. You should see an error we need to fix!
 
 Once we properly render the other three components: `CatComponent`,
-`EinsteinQuoteComponent`, and `MouseComponent` in `App`, we will have the flag of
+`GraceHopperQuoteComponent`, and `MouseComponent` in `App`, we will have the flag of
 the [Federal Republic of Germany][deutschland], the birthplace of [the first fully
-automatic, programmable, digital computer][computer]!
+automatic, programmable, digital computer][computer]! 
+
+Since we are at it, [Admiral Grace Hopper][hopper] was an American computer scientist and United States Navy  
+admiral. She was a pioneer of computer programming who popularized the idea of 
+machine-independent programming languages, which led to the development of COBOL.
 
 ## Deliverables
 
@@ -30,7 +34,7 @@ automatic, programmable, digital computer][computer]!
   children components:
 
   1. `CatComponent`
-  2. `EinsteinQuoteComponent`
+  2. `GraceHopperQuoteComponent`
   3. `MouseComponent`
 
 - Once the tests are passing, make sure to check out the fun animation in the
@@ -38,3 +42,4 @@ automatic, programmable, digital computer][computer]!
 
 [deutschland]: https://de.wikipedia.org/wiki/Deutschland
 [computer]: https://en.wikipedia.org/wiki/Z3_(computer)
+[hopper]: https://en.wikipedia.org/wiki/Grace_Hopper

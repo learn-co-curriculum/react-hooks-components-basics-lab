@@ -61,18 +61,10 @@ const canvas = document.querySelector('#canvas');
 const ctx = canvas.getContext('2d');
 const ripples = [];
 
-
-
-const rippleStartStatus = 'start';
-
-const isIE11 = !!window.MSInputMethodContext && !!document.documentMode;
-
 canvas.style.filter = `blur(${canvasSettings.blur}px)`;
 
 canvas.width = width
 canvas.height = height
-
-let animationFrame;
 
 // Function which is executed on mouse hover on canvas
 const canvasMouseOver = (e) => {
@@ -97,7 +89,7 @@ const animation = () => {
       ripples.pop();
     }
   }
-  animationFrame = window.requestAnimationFrame(animation);
+  window.requestAnimationFrame(animation);
 };
 
 animation()
