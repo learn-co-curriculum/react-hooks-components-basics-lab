@@ -16,8 +16,8 @@ with `npm start`. You should see an error we need to fix!
 
 Once we properly render the other three components: `CatComponent`,
 `EinsteinQuoteComponent`, and `MouseComponent` in `App`, we will have the flag of
-the [Bundesrepublik Deutschland][deutschland]. The birthplace of the first fully
-automatic, programmable, digital computer!
+the [Federal Republic of Germany][deutschland], the birthplace of [the first fully
+automatic, programmable, digital computer][computer]!
 
 ## Deliverables
 
@@ -37,3 +37,4 @@ automatic, programmable, digital computer!
   browser by running `npm start`!
 
 [deutschland]: https://de.wikipedia.org/wiki/Deutschland
+[computer]: https://en.wikipedia.org/wiki/Z3_(computer)
