@@ -1,16 +1,14 @@
-import React, { Component } from 'react';
+import React, { useEffect } from 'react';
 
-export default class MouseComponent extends Component {
+export default function MouseComponent() {
 
-  componentDidMount() {
+  useEffect(() => {
     require("./hoverEffect.js")
-  }
-  
-  render() {
-    return (
-      <div className="bar" id="mouse">
-        <canvas id="canvas"></canvas>
-      </div>
-    )
-  }
+  }, [])
+
+  return (
+    <div className="bar" id="mouse">
+      <canvas id="canvas"></canvas>
+    </div>
+  )
 }
