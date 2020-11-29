@@ -7,7 +7,7 @@ export default function MouseComponent() {
   }, [])
 
   return (
-    <div className="bar" id="mouse">
+    <div className="bar" id="mouse" data-testid="mouse-component">
       <canvas id="canvas"></canvas>
     </div>
   )

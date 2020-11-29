@@ -2,7 +2,7 @@ import React from 'react';
 
 export function GraceHopperQuoteComponent() {
 	return (
-		<div className="bar" id="hopper">
+		<div className="bar" id="hopper" data-testid="quote-component">
 			<i>
 				<p>
 					&quot;The most dangerous phrase in the language is, ‘We’ve always done it this way.’&quot;

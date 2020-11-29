@@ -43,15 +43,15 @@ Ripple.prototype = {
       ${Math.floor(rippleSettings.strokeColor[2])},
       ${this.opacity})`;
   },
-  
+
   draw: function draw() {
     this.ctx.beginPath();
     this.ctx.strokeStyle = this.strokeColor;
-    this.ctx.arc(this.position.x, this.position.y - height*2, this.circleSize, 0,
+    this.ctx.arc(this.position.x, this.position.y - height * 2, this.circleSize, 0,
       2 * Math.PI);
     this.ctx.stroke();
   },
-  
+
   setStatus: function setStatus(status) {
     this.status = status;
   },
@@ -92,5 +92,7 @@ const animation = () => {
   window.requestAnimationFrame(animation);
 };
 
-animation()
-canvas.addEventListener('mousemove', canvasMouseOver);
+if (canvas && ctx) {
+  animation()
+  canvas.addEventListener('mousemove', canvasMouseOver);
+}
