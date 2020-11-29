@@ -1,4 +1,7 @@
 import React from 'react';
+import CatComponent from './CatComponent'
+import MouseComponent from './MouseComponent'
+import {GraceHopperQuoteComponent} from './GraceHopperQuoteComponent'
 
 function App() {
 	// your code in the return statement below!
@@ -6,7 +9,7 @@ function App() {
 		<div className="App">
 			<CatComponent />
 			<GraceHopperQuoteComponent />
-			{/* one more component missing */}
+			<MouseComponent />
 		</div>
 	);
 }
