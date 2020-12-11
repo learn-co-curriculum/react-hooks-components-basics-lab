@@ -1,4 +1,4 @@
-# React Static Components
+# React Components Basics Lab
 
 ## Objectives
 
@@ -14,32 +14,39 @@ components/source files shouldn't need any alterations.
 Begin with `npm install`. Examine what is rendering in the browser
 with `npm start`. You should see an error we need to fix!
 
-Once we properly render the other three components: `CatComponent`,
-`GraceHopperQuoteComponent`, and `MouseComponent` in `App`, we will have the flag of
-the [Federal Republic of Germany][deutschland], the birthplace of [the first fully
-automatic, programmable, digital computer][computer]! 
+In the labs throughout this section, we'll be working on building a small portfolio site in React.
 
-[Admiral Grace Hopper][hopper], on the other hand, was an American computer scientist and United States Navy  
-admiral. She was a pioneer of computer programming who popularized the idea of 
-machine-independent programming languages, which led to the development of COBOL.
+Our goal for the first lesson is to get the basic components for our app -- the
+`<Navbar>`, `<Home>`, and `<About>` components -- to be returned from the
+`<App>` component.
+
+Once we're done, we should get something like this:
+
+<!-- demo image here -->
 
 ## Deliverables
 
-- Two components have not been properly imported in `src/App.js`. Identify and debug
-  the issue. The stack trace when running `npm test` should point you in
-  the right direction! **HINT**: take a look at the component files. One of these components is exported by `default`, but the other is _not_. How does this change importing?
+- Two components have not been properly imported in `src/App.js`. Identify and
+  debug the issue. The stack trace when running `npm test` should point you in
+  the right direction! **HINT**: take a look at the component files. One of
+  these components is exported by `default`, but the other is _not_. How does
+  this change importing? If you're stuck, check out this
+  [MDN article on exporting][mdn export].
 
 - Once you have the first two components importing correctly, import and render
-  a third component, `MouseComponent`. In total, `App` needs to render three
+  a third component, `About`. In total, `App` needs to render three
   children components:
 
-  1. `CatComponent`
-  2. `GraceHopperQuoteComponent`
-  3. `MouseComponent`
+  1. `NavBar`
+  2. `Home`
+  3. `About`
 
-- Once the tests are passing, make sure to check out the fun animation in the
+- Once the tests are passing, make sure to check out the result in the
   browser by running `npm start`!
 
-[deutschland]: https://de.wikipedia.org/wiki/Deutschland
-[computer]: https://en.wikipedia.org/wiki/Z3_(computer)
-[hopper]: https://en.wikipedia.org/wiki/Grace_Hopper
+## Resources
+
+- [React Components](https://reactjs.org/docs/components-and-props.html)
+- [MDN article on exporting][mdn export]
+
+[mdn export]: https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export
