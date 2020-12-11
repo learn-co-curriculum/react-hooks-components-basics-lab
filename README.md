@@ -26,20 +26,13 @@ Once we're done, we should get something like this:
 
 ## Deliverables
 
-- Two components have not been properly imported in `src/App.js`. Identify and
-  debug the issue. The stack trace when running `npm test` should point you in
-  the right direction! **HINT**: take a look at the component files. One of
-  these components is exported by `default`, but the other is _not_. How does
-  this change importing? If you're stuck, check out this
-  [MDN article on exporting][mdn export].
+- Two components, `<Navbar>` and `<Home>`, are already defined in the `App.js`
+  file. Display both of these components as _child_ components of `<App>`.
 
-- Once you have the first two components importing correctly, import and render
-  a third component, `About`. In total, `App` needs to render three
-  children components:
-
-  1. `NavBar`
-  2. `Home`
-  3. `About`
+- Create a third component, `<About>`. It should also be a child component of
+  `<App>`. The `<About>` component should return a `<div>` with an id of
+  `about`. The div can also optionally have some additional text content/other
+  elements inside.
 
 - Once the tests are passing, make sure to check out the result in the
   browser by running `npm start`!
@@ -47,6 +40,3 @@ Once we're done, we should get something like this:
 ## Resources
 
 - [React Components](https://reactjs.org/docs/components-and-props.html)
-- [MDN article on exporting][mdn export]
-
-[mdn export]: https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export
