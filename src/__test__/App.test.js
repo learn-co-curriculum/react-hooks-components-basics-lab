@@ -1,11 +1,10 @@
 import "@testing-library/jest-dom";
 import { render } from "@testing-library/react";
-import { expect } from "chai";
 
 import App from "../components/App";
 
 test("renders without errors", () => {
-  expect(render(<App />)).not.toThrow();
+  expect(() => render(<App />)).not.toThrow();
 });
 
 test("renders the correct child components", () => {
