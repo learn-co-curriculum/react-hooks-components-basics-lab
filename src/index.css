@@ -1,41 +1,63 @@
-body,
-html,
-#root {
-	width: 100%;
-	height: 100%;
-	margin: 0;
-	padding: 0;
-	font-family: sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App {
-	width: 100%;
-	height: 100%;
-	display: flex;
-	flex-direction: column;
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
 }
 
-.bar {
-	display: flex;
-	width: 100%;
-	height: 33.33%;
-	text-align: center;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+  margin-bottom: 1em;
 }
 
-#cat {
-	background-color: #000;
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
-#hopper {
-	background-color: #dd0000;
+nav a {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-size: 1.2em;
+  color: firebrick;
+  border-bottom: 2px solid firebrick;
+  transition: 0.1s;
 }
 
-#mouse {
-	background-color: #ffce00;
+nav a:hover,
+nav a:active {
+  color: tomato;
+  border-bottom: 2px solid tomato;
 }
 
-canvas {
+#home,
+#about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 100vh;
+  padding: 1rem;
+}
+
+#home {
+  background-color: cornsilk;
+}
+
+#about img {
+  max-height: 50%;
 }
