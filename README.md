@@ -7,13 +7,6 @@
 
 ## Instructions
 
-In this lab, we will be rendering a few children components in our top-most
-component: `App`. All of our work will be done in `src/App.js`, the rest of the
-components/source files shouldn't need any alterations.
-
-Begin with `npm install`. Examine what is rendering in the browser
-with `npm start`. You should see an error we need to fix!
-
 In the labs throughout this section, we'll be working on building a small
 portfolio site in React.
 
@@ -24,6 +17,14 @@ Our goal for the first lesson is to get the basic components for our app -- the
 Once we're done, we should get something like this:
 
 ![app demo](images/demo.png)
+
+For this lab, we will be rendering a few children components in our top-most
+component: `App`. All of our work will be done in `src/App.js`, the rest of the
+source files shouldn't need any alterations.
+
+Begin with `npm install`. Examine what is rendering in the browser with
+`npm start`. Work on getting the app to match the screenshot above. Then, run
+`learn test` or `npm test` to check your work.
 
 ## Deliverables
 
