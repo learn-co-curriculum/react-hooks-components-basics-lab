@@ -16,7 +16,7 @@ Our goal for the first lesson is to get the basic components for our app -- the
 
 Once we're done, we should get something like this:
 
-![app demo](images/demo.png)
+![app demo](https://curriculum-content.s3.amazonaws.com/react/demo.png)
 
 For this lab, we will be rendering a few children components in our top-most
 component: `App`. All of our work will be done in `src/App.js`, the rest of the
