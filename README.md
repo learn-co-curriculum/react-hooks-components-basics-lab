@@ -23,8 +23,7 @@ component: `App`. All of our work will be done in `src/components/App.js`, the r
 source files shouldn't need any alterations.
 
 Begin with `npm install`. Examine what is rendering in the browser with
-`npm start`. Work on getting the app to match the screenshot above. Then, run
-`learn test` or `npm test` to check your work.
+`npm start`. To start, work on getting the app to match the screenshot above. Then, open up a second terminal (open to the same directory), and run `learn test` or `npm test` to check your work.
 
 ## Deliverables
 
@@ -38,8 +37,6 @@ Begin with `npm install`. Examine what is rendering in the browser with
     div can also optionally have some additional text content and other elements
     inside &mdash; as long as it has an id of `about`, it will pass the test!
 
-- Once the tests are passing, make sure to run `npm start` and check out the
-  result in the browser.
 
 ## Resources
 
