@@ -2,8 +2,8 @@
 
 ## Learning Goals
 
-- Practice rendering static children components
-- Have some fun with the rendered components in the browser
+- Write basic React components
+- Return one React component from another component
 
 ## Instructions
 
@@ -19,11 +19,19 @@ Once we're done, we should get something like this:
 ![app demo](https://curriculum-content.s3.amazonaws.com/react/demo.png)
 
 For this lab, we will be rendering a few children components in our top-most
-component: `App`. All of our work will be done in `src/components/App.js`, the rest of the
-source files shouldn't need any alterations.
+component: `App`. All of our work will be done in `src/components/App.js`. The
+rest of the files shouldn't need any changes.
 
-Begin with `npm install`. Examine what is rendering in the browser with
-`npm start`. To start, work on getting the app to match the screenshot above. Then, open up a second terminal (open to the same directory), and run `learn test` or `npm test` to check your work.
+To set up the app and run it in the browser, run:
+
+```sh
+npm install
+npm start
+```
+
+To start, work on getting the app to match the screenshot above. Then, open up a
+second terminal (open to the same directory), and run `learn test` or `npm test`
+to check your work.
 
 ## Deliverables
 
