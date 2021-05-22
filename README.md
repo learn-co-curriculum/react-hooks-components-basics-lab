@@ -1,6 +1,6 @@
 # React Components Basics Lab
 
-## Objectives
+## Learning Goals
 
 - Practice rendering static children components
 - Have some fun with the rendered components in the browser
@@ -36,7 +36,6 @@ Begin with `npm install`. Examine what is rendering in the browser with
   - The `<About>` component should return a `<div>` with an id of `about`. The
     div can also optionally have some additional text content and other elements
     inside &mdash; as long as it has an id of `about`, it will pass the test!
-
 
 ## Resources
 
