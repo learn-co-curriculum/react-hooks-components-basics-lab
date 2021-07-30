@@ -10,8 +10,8 @@
 In the labs throughout this section, we'll be working on building a small
 portfolio site in React.
 
-Our goal for the first lesson is to get the basic components for our app &mdash; the
-`<Navbar>`, `<Home>`, and `<About>` components &mdash; to be returned from the
+Our goal for the first lesson is to get the basic components for our app — the
+`<Navbar>`, `<Home>`, and `<About>` components — to be returned from the
 `<App>` component.
 
 Once we're done, we should get something like this:
@@ -43,7 +43,7 @@ to check your work.
 
   - The `<About>` component should return a `<div>` with an id of `about`. The
     div can also optionally have some additional text content and other elements
-    inside &mdash; as long as it has an id of `about`, it will pass the test!
+    inside — as long as it has an id of `about`, it will pass the test!
 
 ## Resources
 
