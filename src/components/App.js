@@ -11,7 +11,7 @@ function NavBar() {
 function Home() {
   return (
     <div id="home">
-      <h2>Home</h2>
+      <h1>Home</h1>
     </div>
   );
 }
