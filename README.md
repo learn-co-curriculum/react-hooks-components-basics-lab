@@ -41,9 +41,9 @@ to check your work.
 - Create a third component, `<About>`. The `<About>` component should also be a
   _child_ component of `<App>`.
 
-  - The `<About>` component should return a `<div>` with an id of `about`. The
-    div can also optionally have some additional text content and other elements
-    inside — as long as it has an id of `about`, it will pass the test!
+  - The `<About>` component should return a `<div>` with an id of `about`. To
+    match the screenshot, the div should contain an `<h2>` element with the text
+    "About." However, as long as it has an id of `about`, it will pass the test!
 
 ## Resources
 
