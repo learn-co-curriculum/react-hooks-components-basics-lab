@@ -24,9 +24,9 @@ rest of the files shouldn't need any changes.
 
 To set up the app and run it in the browser, run:
 
-```sh
-npm install
-npm start
+```console
+$ npm install
+$ npm start
 ```
 
 To start, work on getting the app to match the screenshot above. Then, open up a
