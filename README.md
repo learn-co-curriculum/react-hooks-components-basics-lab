@@ -30,8 +30,8 @@ $ npm start
 ```
 
 To start, work on getting the app to match the screenshot above. Then, open up a
-second terminal (open to the same directory), and run `learn test` or `npm test`
-to check your work.
+second terminal (open to the same directory), and run`npm test` to check your
+work.
 
 ## Deliverables
 
