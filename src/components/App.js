@@ -1,6 +1,6 @@
 import React from "react";
 
-function NavBar() {
+const NavBar = () => {
   return (
     <nav>
       <a href="#home">I'm a link!</a>
@@ -8,7 +8,7 @@ function NavBar() {
   );
 }
 
-function Home() {
+const Home = () => {
   return (
     <div id="home">
       <h1>Home</h1>
@@ -19,7 +19,7 @@ function Home() {
 {/* write an <About> component here */}
 
 
-function App() {
+const App = () => {
   return (
     <div>
       <NavBar />
